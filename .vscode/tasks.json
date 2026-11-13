@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Build Protocol Echo","type":"shell","command":"powershell.exe","args":["-NoProfile","-File","${workspaceFolder}/build.ps1"],"group":{"kind":"build","isDefault":true},"problemMatcher":["$gcc"]}]}

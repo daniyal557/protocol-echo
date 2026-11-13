@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+<FileVersion major="1" minor="6" />
+<Project>
+<Option title="ProtocolEcho" /><Option compiler="gcc" />
+<Build><Target title="Debug">
+<Option output="bin/ProtocolEcho" prefix_auto="1" extension_auto="1" />
+<Option object_output="obj/Debug/" /><Option working_dir="." />
+<Option type="0" /><Option compiler="gcc" />
+<Compiler><Add option="-g" /></Compiler>
+</Target></Build>
+<Compiler><Add option="-std=c++17" /><Add option="-Wall" /><Add directory="C:/raylib/include" /></Compiler>
+<Linker><Add directory="C:/raylib/lib" /><Add library="raylib" /><Add library="opengl32" /><Add library="gdi32" /><Add library="winmm" /></Linker>
+<Unit filename="display.cpp" />
+<Unit filename="display.h" />
+<Unit filename="dog.cpp" />
+<Unit filename="dog.h" />
+<Unit filename="entity.cpp" />
+<Unit filename="entity.h" />
+<Unit filename="gameLog.h" />
+<Unit filename="item.cpp" />
+<Unit filename="item.h" />
+<Unit filename="main.cpp" />
+<Unit filename="map.cpp" />
+<Unit filename="map.h" />
+<Unit filename="player.cpp" />
+<Unit filename="player.h" />
+<Unit filename="position.h" />
+<Unit filename="puzzle.cpp" />
+<Unit filename="puzzle.h" />
+<Unit filename="robot.cpp" />
+<Unit filename="robot.h" />
+<Unit filename="tile.cpp" />
+<Unit filename="tile.h" />
+</Project>
+</CodeBlocks_project_file>
